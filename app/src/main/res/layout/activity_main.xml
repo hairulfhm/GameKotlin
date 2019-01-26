@@ -5,9 +5,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center"
+    android:background="@color/whitebackground"
     tools:context="startup.hairul.com.tictoctoygame.MainActivity">
 
     <TableRow
+        android:layout_marginBottom="3pt"
         android:gravity="center"
         android:layout_width="match_parent"
         android:layout_height="match_parent" >
@@ -35,6 +37,7 @@
     </TableRow>
 
     <TableRow
+        android:layout_marginBottom="3pt"
         android:gravity="center"
         android:layout_width="match_parent"
         android:layout_height="match_parent" >
@@ -61,7 +64,9 @@
             android:onClick="buClick" />
     </TableRow>
 
+
     <TableRow
+        android:layout_marginBottom="3pt"
         android:gravity="center"
         android:layout_width="match_parent"
         android:layout_height="match_parent" >
